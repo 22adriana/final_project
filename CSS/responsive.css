@@ -1,0 +1,115 @@
+@media (max-width:1024px){
+    #grid-container{
+        grid-template: 
+        "header header" 170px
+        "nav main" 800px
+        "nav main"  700px
+        "sidebar sidebar" 650px
+        "footer footer" 100px /
+        250px 450px; 
+        font-size: 75%;/*Cambia el tamaño de la letra*/
+        }
+    #menu{
+        background-color: black;
+        border-radius: 22px;
+        display: block;
+        padding: 10px;
+        margin:10px;
+        height: auto;
+        text-align: center;
+        }
+        li{
+            display: block;
+        }
+        #reguser{
+            position: relative;
+            left: 2px;
+        }
+    #main{
+        display: flex;
+        flex-direction: column;/* cambia la forma de direccion de fila a col*/
+        justify-content: space-between;
+        align-items:center;
+        flex-wrap: wrap;/*se define el auto ajuste de ancho dispostivo pasa a sgte. linea*/
+        max-width:100%;
+        }
+    .img{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items:center;
+        flex-wrap: wrap;
+        max-width: 100%;
+        height: auto;
+        border: 1px solid black; 
+        
+    }
+    iframe{
+        max-width: 100%;
+        height: auto;
+    }
+    .social-media{
+        display: block;
+    }
+    .buscarbox{
+        display:block;
+        padding: 5px;
+    }
+    }
+    /*----- SECCION VISTA DE CELULAR ------*/
+    @media (max-width:640px){
+    #grid-container{
+        grid-template: 
+        "header" 150px
+        "nav" 50px
+        "main" 1400px
+        "sidebar" 800px
+        "footer" 100px /
+        500px; 
+        font-size: 60%;
+        }
+    /* Nota: la barra <nav> se programará con javascript por medio de funciones en boton hamburguesa*/
+        #menu{
+        display: none;/* se oculta contenedor nav opciones*/
+        } 
+    /* se define que aparezca el menu hamburguesa en la parte superior*/
+    .openmenu{
+        display: block;
+        position:absolute;
+        top:10px;
+        right:120px;
+        z-index:99;/* se define capa encima del texto de contenido HTML*/
+        cursor: pointer;
+        }
+        
+    #main{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items:center;
+        flex-wrap: wrap;
+        max-width: 100%;
+        height: auto;
+        }
+    .img{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        max-width: 100%;
+        height: auto;
+        border: 1px solid black; 
+        }
+    iframe{
+        max-width: 100%;
+        height: auto;
+    }
+    .social-media{
+        display: block;
+    }
+    .buscarbox{
+        display:none;
+    }
+    }
+    
+

@@ -1,0 +1,60 @@
+html{
+    background-color:lightblue;
+    margin: 0 auto;
+    min-width: 375px;
+    width: 80%;
+    max-height: 100%;
+}
+.h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    color: yellowgreen;
+
+}
+.boton{
+    position: absolute;
+    left: 30px;
+    top: 20px;
+    display: inline-block;
+    border: 1px groove black; /*anchura, estilo y color borde*/
+    padding: 10px; /*espacio alrededor texto*/
+    background-color: yellowgreen; /*color botón*/
+    color: black; /*color texto*/
+    text-decoration: none; /*decoración texto*/
+    text-transform: uppercase; /*capitalización texto*/
+    font-family: 'Times New Roman', Times, serif; /*tipografía texto*/
+}
+#main{
+    grid-area: main;/* matricula nombre al contenedor section para grid*/
+    background-color: white;
+    border:2px solid rgb(13, 126, 116);
+    /* se define ancho y altura contenedor para ajustar a vista a dispositivo actual*/
+    max-width:100%;
+    height: auto;
+}
+figure, figcaption{
+    display: inline;
+    margin: 45px;
+    padding: 5px 5px;   
+}
+
+.img{
+    display: inline-block;
+    margin: 5px 5px;
+    padding: 5px 5px;
+    width: 20%;
+    height: 10%;
+    position: relative;
+    border: 1px solid yellowgreen; 
+    border-radius: 15px 15px;
+    flex-wrap:wrap ;
+    }
+section article{
+    background-color: white;
+    width: 200px;
+    margin: 20px;
+    flex-wrap: wrap;
+    } 
+    .copyright{
+        text-align: center;
+    }

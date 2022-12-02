@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- seccion de creacion de favicon -->
+<link rel="shortcut icon" href="../img/logo.png" type="image/x-icon">
+<link rel="stylesheet" href="../CSS/lightbox.css">
+<body>
+  <h2 style="text-align:center"><img class="logo" src="../img/logo.png" alt="" style="height: 50px; width: 50px;">FAMILIA NATUFARMA</h2>
+  <br><br><br>
+  <div class="row">
+    <div class="column">
+      <img src="../IMG/equi 1.jpeg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+      <figcaption>Administradora Bogotá</figcaption>
+    </div>
+    <div class="column">
+      <img src="../IMG/equi 2.jpeg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+      <figcaption>Vendedor</figcaption>
+    </div>
+    <div class="column">
+      <img src="../IMG/equi 3.jpeg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+      <figcaption>Administrador y auxiliar Medellín</figcaption>
+    </div>
+    <div class="column">
+      <img src="../IMG/equi 4.jpeg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+      <figcaption>Acomodadora de porductos</figcaption>
+    </div>
+    <div class="column">
+      <img src="../IMG/equi 5.jpeg" style="width:100%" onclick="openModal();currentSlide(5)" class="hover-shadow cursor">
+      <figcaption>Equipo Boyaca</figcaption>
+    </div>
+    <div class="column">
+      <img src="../IMG/equi 6.jpg" style="width:100%" onclick="openModal();currentSlide(6)" class="hover-shadow cursor">
+      <figcaption>Equipo Medellín</figcaption>
+    </div>
+    <div class="column">
+      <img src="../IMG/equi 7.jpg" style="width:100%" onclick="openModal();currentSlide(7)" class="hover-shadow cursor">
+      <figcaption>Equipo Bogotá</figcaption>
+    </div>
+    <div class="column">
+      <img src="../IMG/equi 8.jpg" style="width:100%" onclick="openModal();currentSlide(8)" class="hover-shadow cursor">
+      <figcaption>Equipo medellín Navidad</figcaption>
+    </div>
+    <div class="column">
+      <img src="../IMG/equi 9.jpg" style="width:100%" onclick="openModal();currentSlide(9)" class="hover-shadow cursor">
+      <figcaption>Equipo Boyaca Navidad </figcaption>
+    </div>
+    <div class="column">
+      <img src="../IMG/equi 10.png" style="width:100%" onclick="openModal();currentSlide(10)" class="hover-shadow cursor">
+      <figcaption>Equipo Boyaca</figcaption>
+    </div>
+  </div>
+  <!-- Seccion de enlaces a cada imagen en Vista modal Lightbox -->
+  <div id="myModal" class="modal">
+    <span class="close cursor" onclick="closeModal()">&times;</span>
+    <div class="modal-content">
+      
+      <div class="mySlides">
+        <div class="numbertext">1 / 10</div>
+        <img src="../IMG/equi 1.jpeg" style="width:100%">
+      </div>
+      
+    <div class="mySlides">
+      <div class="numbertext">2 / 10</div>
+      <img src="../IMG/equi 2.jpeg" style="width:100%">
+    </div>
+    
+    <div class="mySlides">
+      <div class="numbertext">3 / 10</div>
+      <img src="../IMG/equi 3.jpeg" style="width:100%">
+    </div>
+    
+    <div class="mySlides">
+      <div class="numbertext">4 / 10</div>
+      <img src="../IMG/equi 4.jpeg" style="width:100%">
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">5 / 10</div>
+      <img src="../IMG/equi 5.jpeg" style="width:100%">
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">6 / 10</div>
+      <img src="../IMG/equi 6.jpg" style="width:100%">
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">7 / 10</div>
+      <img src="../IMG/equi 7.jpg" style="width:100%">
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">8 / 10</div>
+      <img src="../IMG/equi 8.jpg" style="width:100%">
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">9 / 10</div>
+      <img src="../IMG/equi 9.jpg" style="width:100%">
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">10 / 10</div>
+      <img src="../IMG/equi 10.png" style="width:100%">
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+    <!-- Seccion de columnas de imágenes en miniatura -->
+    
+    <div class="column">
+      <img class="demo cursor" src="../IMG/equi 1.jpeg" style="width:100%" onclick="currentSlide(1)" alt="Administradora Bogotá">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="../IMG/equi 2.jpeg" style="width:100%" onclick="currentSlide(2)" alt="Vendedor">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="../IMG/equi 3.jpeg" style="width:100%" onclick="currentSlide(3)" alt="Administrador y auxiliar Medellín">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="../IMG/equi 4.jpeg" style="width:100%" onclick="currentSlide(4)" alt="Acomodadora de porductos">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="../IMG/equi 5.jpeg" style="width:100%" onclick="currentSlide(5)" alt="Equipo Boyaca">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="../IMG/equi 6.jpg" style="width:100%" onclick="currentSlide(6)" alt="Equipo Medellín">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="../IMG/equi 7.jpg" style="width:100%" onclick="currentSlide(7)" alt="Equipo Bogotá">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="../IMG/equi 8.jpg" style="width:100%" onclick="currentSlide(8)" alt="Equipo medellín Navidad">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="../IMG/equi 9.jpg" style="width:100%" onclick="currentSlide(9)" alt="Equipo Boyaca Navidad">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="../IMG/equi 10.png" style="width:100%" onclick="currentSlide(10)" alt="Equipo Boyaca">
+    </div>
+  </div>
+</div>
+<!--SCRIPT-->
+<script src="../JS/LIGHTBOX.js"></script>
+
+</body>
+</html>

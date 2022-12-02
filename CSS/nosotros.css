@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+    margin: 0; /* Inicializa margenes*/
+    padding: 0;/* Inicializa padding*/
+}
+html{
+    background-color:lightblue;
+    margin: 0 auto;
+    min-width: 375px;
+    width: 60%;
+    max-height: 100%; /* se adapte altura pag web cualq dispositivo*/
+    
+}
+
+.boton{
+    cursor: pointer;
+    position: absolute;
+    left: 30px;
+    top: 20px;
+    display: inline-block;
+    border: 1px groove yellowgreen; /*anchura, estilo y color borde*/
+    padding: 10px; /*espacio alrededor texto*/
+    background-color: yellowgreen; /*color botón*/
+    color: black; /*color texto*/
+    text-decoration: none; /*decoración texto*/
+    text-transform: uppercase; /*capitalización texto*/
+    font-family: 'Times New Roman', Times, serif; /*tipografía texto*/
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: rgb(42, 109, 109);
+}
+.tex{
+    font-size: 50px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: yellowgreen;
+}
+#main{
+
+    grid-area: main;/* matricula nombre al contenedor section para grid*/
+    background-color: white;
+    border:2px solid white;
+    /* se define ancho y altura contenedor para ajustar a vista a dispositivo actual*/
+    max-width:200%;
+    height: 600%;
+}
+figure, figcaption{
+    display: inline;
+    margin: 45px;
+    padding: 5px 5px;   
+}
+
+.img{
+    width:200px;
+    height:200px;
+    border-radius:150px;
+    border:5px solid rgb(102, 102, 102);
+    }
+section article{
+    display: inline;
+    background-color: white;
+    width: 200px;
+    margin: 20px;
+    
+    }
+
+.minvi{
+    padding: 10px; 
+    float: left; 
+    width: 45%; 
+    text-align: justify;
+    
+}
+.minvi2{
+    padding: 10px; 
+    float: left; 
+    width: 45%; 
+    text-align: justify;
+    position: relative;
+    left: 75px;
+}
+.copyright{
+    position: absolute;
+    top: 750px;
+    right: 500px;
+    
+}
+
+

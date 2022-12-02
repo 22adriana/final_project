@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- seccion de creacion de favicon -->
+    <link rel="shortcut icon" href="../img/logo.png" type="image/x-icon">
+    <!-- link fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!--Link CSS3-->
+    <link rel="stylesheet" href="../CSS/Filtering.css">
+    <title>NOSOTROS</title>
+</head>
+    <link rel="stylesheet" href="../CSS/nosotros.css">
+</head>
+<body>
+    <a class="boton" href="../HTML/NATUFARMA.html" target="_blank">HOME</a>
+    <div id="toggle"><!-- CAMBIO-->
+        <input type="checkbox" class="checkbox" id="chk" />
+        <label class="label" for="chk">
+            <i class="fas fa-sun"></i>
+            <i class="fas fa-moon"></i>
+            <div class="ball"></div>
+        </label>
+    </div>
+    <center>
+        <section id="main">
+            <br><H1 class="tex">NOSOTROS</H1><br>
+            <p>*Da le click en cualquier imagen para conocer nuestro equipo*</p><br>
+            <article>
+                <a href="../HTML/LIGHTBOX.html"><img class="img"src="../img/person1.jpeg" alt="" width="50%" height="50%"></a>
+            </article>
+            <article >
+                <a href="../HTML/LIGHTBOX.html"><img class="img" src="../img/person2.jpeg" alt="" width="50%" height="50%"></a>
+            </article>
+            <article >
+                <a href="../HTML/LIGHTBOX.html"><img class="img"src="../img/person3.jpeg" alt="" width="50%" height="50%"></a>
+            </article><br><br><br>
+            <article>
+                <h1>NATUFARMA</h1><br>
+                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos velit suscipit adipisci quaerat tempora exercitationem expedita placeat similique accusantium! Quisquam totam fugiat similique magnam dignissimos tempore quidem obcaecati voluptas temporibus Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque, voluptatibus inventore. Doloribus aspernatur dolores eius. Voluptates sapiente mollitia, possimus voluptas, temporibus quod cum ipsa atque porro similique error, pariatur iusto Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit similique placeat, eius sit facilis corrupti ab reprehenderit expedita cupiditate obcaecati est aut necessitatibus? Distinctio, eveniet? Velit possimus corrupti fugit nesciunt Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta maiores sunt accusamus asperiores excepturi beatae id eaque quis eligendi. Voluptatibus explicabo facere enim aspernatur maxime tempore qui soluta ducimus rem.</p>
+            </article>
+            <article>
+                <div class="minvi"><br><h1>MISIÓN</h1><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo nulla deserunt distinctio neque quas doloremque unde perspiciatis quis sunt! Minus inventore tempora corporis nihil numquam incidunt quas natus sit at?</div>
+            </article>
+            <article>
+            <div class="minvi2"><h1>VISIÓN</h1><br> lipsum dolor sit amet consectetur adipisicing elit. Quaerat, eius ex dolore laudantium tenetur doloribus velit earum id cum dolor ducimus officiis nesciunt iste quos deleniti consequuntur reiciendis ad dicta!</div>
+            </article>
+        </center>
+        
+    <br><br><br><br>
+
+    <div>
+        <h1>NUESTRAS TIENDAS</h1>
+        <hr><br>
+        <h2>LUGARES</h2><br>
+        <div id="myBtnContainer">
+            <button class="btn active" onclick="filterSelection('all')"> Todos</button>
+            <button class="btn" onclick="filterSelection('Bogotá')"> Bogotá</button>
+            <button class="btn" onclick="filterSelection('Medellín')"> Medellín</button>
+            <button class="btn" onclick="filterSelection('Boyaca')"> Boyaca</button>
+        </div>
+        
+        <!--Portafolio Gallery Grid-->
+        <div class="row">
+            <div class="column Bogotá">
+                <div class="content">
+                    <img src="../IMG/lugar1.jpeg" alt="" style="width:200px; height: 150px;">
+                    <h4>NATUFARMA</h4>
+                    <p>Calle 10 # 5-51</p>
+                </div>
+            </div>
+            <div class="column Bogotá">
+                <div class="content">
+                    <img src="../IMG/lugar2.jpeg" alt="" style="width:200px;height:150px;">
+                    <h4>NATUFARMA</h4>
+                    <p>Calle 27 d sur # 27 c 51</p>
+                </div>
+            </div>
+            
+            <div class="column Bogotá">
+                <div class="content">
+                    <img src="../IMG/lugar3.jpeg" alt="" style="width:200px;height:150px;">
+                <h4>NATUFARMA</h4>
+                <p>Avenida el dorado # 68D - 35</p>
+                </div>
+            </div>
+            </div>
+
+            <div class="column Medellín">
+                <div class="content">
+            <img src="../IMG/lugar4.jpg" alt="" style="width:200px;height:150px;">
+            <h4>NATUFARMA</h4>
+            <p>avenida carrera 19 # 127 d -55</p>
+        </div>
+            </div>
+            <div class="column Medellín">
+                <div class="content">
+                    <img src="../IMG/lugar 5.jpeg" alt="" style="width:200px; height: 150px;">
+                    <h4>NATUFARMA</h4>
+                    <p>CALLE 35 # 33-09</p>
+                </div>
+            </div>
+            <div class="column Medellín">
+                <div class="content">
+                    <img src="../IMG/lugar6.jpg" alt="" style="width:200px; height: 150px;">
+                    <h4>NATUFARMA</h4>
+                    <p>KR 23 # 35 - 48</p>
+                </div>
+            </div>
+            <div class="column Boyaca">
+                <div class="content">
+                    <img src="../IMG/lugar7.jpeg" alt="" style="width:200px; height: 150px;">
+                    <h4>NATUFARMA</h4>
+                    <p>Circular 76 # 39b 80</p>
+                </div>
+            </div>
+            <div class="column Boyaca">
+                <div class="content">
+                    <img src="../IMG/lugar8.jpg" alt="" style="width:200px; height: 150px;">
+                    <h4>NATUFARMA</h4>
+                    <p> Carrera 10 # 54 - 37 </p>
+                </div>
+            </div>
+            <div class="column Boyaca">
+                <div class="content">
+                    <img src="../IMG/lugar9.jpeg" alt="" style="width:200px; height: 150px;">
+                    <h4>NATUFARMA</h4>
+                    <p>Carrera 11 N°90-23</p>
+                </div>
+            </div>
+            <!--END GRIND-->
+        </div>
+        <!--END MAIN-->
+    </div>
+</section>
+
+<footer>
+        <center>
+            <h5 class="designBy">
+                Diseñado por: Adriana Marquez
+                    </h5>
+        </center>
+</footer>
+
+    <script src="../JS/filtering.js"></script>
+</body>
+</html>
+
